@@ -973,7 +973,7 @@ h2 {
     }
     
     p {
-        font-size: 10px;
+        font-size: 12px;
     }
     h1 {
         font-size: 30px;
@@ -1022,8 +1022,8 @@ h2 {
         align-items: center;
     }
     .hero .bar-menu {
-        width: 9vw;
-        height: 5vh;
+        width: 7vh;
+        height: 7vh;
         border-radius: 50px;
         background-color: white;
         display: flex;
@@ -1283,7 +1283,7 @@ h2 {
         display: none;
     }
     .footer-mobile {
-        background-image: url(pattern.png);
+        background-image: url(Rectangle\ \(2\).png);
         background-repeat: no-repeat;
         background-size: cover;
         height: 170vh;
@@ -1291,12 +1291,10 @@ h2 {
         flex-direction: column;
         color: white;
         margin-top: 100px;
-        margin-left: -8%;
-        
     }
     .form {
         background-color: white;
-        height: 700px;
+        height: 650px;
         width: 300px;
         margin-top: 5%;
         border-radius: 3%;
@@ -1322,7 +1320,7 @@ h2 {
         justify-content: space-around;
     }
     hr{
-        width: 1250px;
+        width: 400px;
         height: 1px;
         background: #FFFFFF;
         mix-blend-mode: normal;
@@ -1332,6 +1330,7 @@ h2 {
     .dads{
         margin-left: 20px;
     }
+
     .logo-footer {
         margin-left: 30px;
     }
