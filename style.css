@@ -153,9 +153,10 @@ h2 {
     width: 33px;
     border-radius: 50%;
     position: absolute;
-    left: -15%;
+    left: -10%;
     border: 0.5px solid;
     margin-top: -6%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -849,6 +850,9 @@ h2 {
     margin-top: 20%;
     position: relative;
 }
+.footer-mobile {
+    display: none;
+}
 .footer .miss {
     background-color: white;
     position: absolute;
@@ -871,6 +875,7 @@ h2 {
 .footer .boxe1 {
     margin-top: 60%;
     position: absolute;
+    margin-left: 5%;
 }
 .footer .boxe1 .one{
     flex-basis: 20%;
@@ -878,14 +883,23 @@ h2 {
 
 .footer .boxe1 .one p {
     margin-top: 5%;
+    font-size: 16px;
+    color: #FFFFFF;
 }
 .footer .boxe1 .two ul {
     margin-top: 20%;
 }
+.footer .boxe1 .two ul li {
+    color: #FFFFFF;
+    font-size: 16px;
+}
 .footer .boxe1 .three ul {
     margin-top: 20%;
 }
-
+.footer .boxe1 .three ul li {
+    color: #FFFFFF;
+    font-size: 16px;
+}
 .footer .boxe1 .social2 {
     color: whitesmoke;
     display: flex;
@@ -918,17 +932,19 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-left: 6%;
-    border-top: 1px solid black;
+    border-top: 1px solid #4a4747;
 }
 .cops .copy {
-    margin-left: -30%;
+    margin-left: 1%;
     margin-top: 2%;
+    color: #FFFFFF;
 }
 .cops .droit {
     width: 40%;
     display: flex;
     margin-top: 2%;
-    justify-content: space-between;
+    justify-content: space-around;
+    color: #FFFFFF;
 }
 
 @media screen and ( max-width: 1000px) {
@@ -964,6 +980,12 @@ h2 {
     }
     h2 {
         font-size: 13px;
+    }
+    h4 {
+        text-transform: none;
+        color: #ec882c;
+        font-size: 15px;
+        margin-left: 20%;
     }
     .boite2 {
         display: flex;
@@ -1230,6 +1252,7 @@ h2 {
     }
     .section7 .mum {
         height: 35vh;
+        margin-left: 5%;
     }
     .section7 .mum .parent {
         margin-top: -6%;
@@ -1249,76 +1272,73 @@ h2 {
         margin-top: 3%;
         margin-left: -1%;
     }
+    .carousel-item img {
+        display: block;
+        height: 350px;
+        max-width: 100%;
+        border-radius: 10px;
+        margin-left: -7%;
+      }
     .footer {
-        background-image: url("pattern.png");
+        display: none;
+    }
+    .footer-mobile {
+        background-image: url(pattern.png);
         background-repeat: no-repeat;
         background-size: cover;
         height: 170vh;
         display: flex;
         flex-direction: column;
         color: white;
-        margin-top: 10%;
+        margin-top: 100px;
+        margin-left: -8%;
+        
     }
-    .footer .miss {
+    .form {
         background-color: white;
-        height: 100vh;
-        width: 50vw;
-        margin-left: 25%;
-        margin-top: 3%;
-        border-radius: 10px;
+        height: 700px;
+        width: 300px;
+        margin-top: 5%;
+        border-radius: 3%;
         display: flex;
-        flex-direction: column;
         align-items: center;
-        transform: translate(0, 9vw);
-    }
-    .miss .input1 {
-        display: flex;
+        align-self: center;
         flex-direction: column;
-        align-items: center;
-        height: 10vh;
-        transform: translate(0, 4vw);
-    }
-   
-    .miss .input2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 10vh;
-        transform: translate(0, 5vw);
-    }
-    .miss .sms {
-        transform: translate(0, 5vw);
-    }
-    .miss button {
-        transform: translate(0, 5vw);
-    }
-    footer .box1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        transform: translate(0, 28vw);
-        height: 50vh;
-    }
-    .box1 .one {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: -15%;
-    }
-    .box1 .one img {
-        margin-left: -64%;
-        margin-top: 9%;
-    }
-    .box1 .one p {
-        transform: translate(5vw, -6vw); 
-    }
-    .box1 .two {
-        margin-top: -40%;
-        margin-left: -35%;
+        justify-content: space-around;
     }
     
-    .box1 .two .service {
-        transform: translate(-8vw, 0);
+    
+    .footer-bottom{
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
     }
    
+    .media{
+        display: flex;
+    }
+    .copy{
+        display: flex;
+        justify-content: space-around;
+    }
+    hr{
+        width: 1250px;
+        height: 1px;
+        background: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.1;
+        align-self: center;
+    }
+    .dads{
+        margin-left: 20px;
+    }
+    .logo-footer {
+        margin-left: 30px;
+    }
+    .logo-footer img {
+        margin-left: -7%;
+    }
+    .logo-footer p {
+        font-size: 15px;
+    }
 }
