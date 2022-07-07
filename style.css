@@ -296,6 +296,7 @@ h2 {
     flex-direction: column;
     margin-left: 100px;
     justify-content: space-around;
+    padding-left: 2%;
 }
 .cards:hover {
     background: white;
@@ -310,6 +311,7 @@ h2 {
     flex-direction: column;
     margin-left: 100px;
     justify-content: space-around;
+    padding-left: 2%;
 }
 .cards1:hover {
     background: white;
@@ -324,6 +326,7 @@ h2 {
     flex-direction: column;
     margin-left: 100px;
     justify-content: space-around;
+    padding-left: 2%;
 }
 .cards2:hover {
     background: white;
@@ -1022,8 +1025,8 @@ h2 {
         align-items: center;
     }
     .hero .bar-menu {
-        width: 7vh;
-        height: 7vh;
+        width: 5vh;
+        height: 5vh;
         border-radius: 50px;
         background-color: white;
         display: flex;
@@ -1087,7 +1090,7 @@ h2 {
         align-items: center;
         flex-direction: column;
         margin-left: -50%;
-        margin-top: -1%;
+        margin-top: -3%;
     }
     .section4 .cont {
         display: none;
