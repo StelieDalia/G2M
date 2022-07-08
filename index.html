@@ -30,11 +30,32 @@
         <section class="hero">
             <div class="logo"><img src="G2M.png" alt="" class="logo"></div>
             <div class="lang">
-                <div class="end row">
-                    <button class="btn">devis</button>
-                    <span class="tsl">Français <i class="fa fa-language"></i> <i class="fa fa-caret-down"></i></span>
+                <div class="end row"><br><br><br><br>
+                    <label class="dropdown">
+                        <div class="dd-button">
+                          language
+                        </div>
+                        <input type="checkbox" class="dd-input" id="test">
+                        <ul class="dd-menu">
+                          <li>Francais</li>
+                          <li>Anglais</li>
+                        </ul>
+                    </label>
                 </div>
-                <div class="bar-menu"><i class="fa-solid fa-bars fa-2xl"></i></div>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="#">A propos</a></li>
+                        <li><a class="menu__item" href="#">Services</a></li>
+                        <li><a class="menu__item" href="#">Missions</a></li>
+                        <li><a class="menu__item" href="#">Projets</a></li>
+                        <li><a class="menu__item" href="#">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </section>
 
@@ -385,7 +406,7 @@
                 <span class="act">Vous pouvez vous abonner a notre newsletters et nos pages</span><br><br>
             </div>
             <div class="mamie">
-                <input type="email" name="email" placeholder="Email">
+                <input type="email" name="email" placeholder="Email" style="padding: 0 15px;">
                 <button style="color: white;" class="sous">Souscrire</button>
             </div>
             <div class="m-s">
@@ -412,10 +433,10 @@
             </div><br>
             <div style="display: flex; width:60%; justify-content: space-between; margin-top: 4%;">
                 <div class="sister">
-                    <label style="color: black;display: flex; flex-direction: column;" for="">Email<input style="height: 40px; width: 170px;" type="email" placeholder="Email"></label>
+                    <label style="color: black;display: flex; flex-direction: column;" for="">Email<input style="height: 40px; width: 170px;" placeholder="Email"></label>
                 </div><br><br><br><br>
                 <div class="sister">
-                    <label style="color: black;display: flex; flex-direction: column;" for="">Service <select style="height: 40px; width: 170px" name="" id=""></select></label>
+                    <label style="color: black; display:flex; flex-direction: column" for="">Service <select style="height: 40px; width: 170px" name="" id=""></select></label>
                 </div>
             </div><br><br><br>
             <div style="width: 60%;">
@@ -497,7 +518,7 @@
                 </p>
             </div><br><br>
             <div class="men">
-                <h3 class="h5" style="margin-left: 30px;">MENU</h3> <br>
+                <h3 class="h5" style="margin-left: 30px; color: #ec882c;">MENU</h3> <br>
                 <span style="opacity:80% ; margin-left: 30px;">A propos de nous</span> <br>
                 <span style="opacity:80% ; margin-left: 30px;">Projets & clients</span> <br>
                 <span style="opacity:80% ; margin-left: 30px;">Services</span> <br>
@@ -505,7 +526,7 @@
                 <br>
             </div>
             <div class="ser">
-                <h3 class="h5" style="margin-left: 30px;">SERVICE</h3> <br>
+                <h3 class="h5" style="margin-left: 30px; color: #ec882c;">SERVICE</h3> <br>
                 <span style="opacity:80% ; margin-left: 30px;" >Seo</span> <br>
                 <span style="opacity:80% ; margin-left: 30px;" > Marketing</span> <br>
                 <span style="opacity:80% ; margin-left: 30px;" > SMS</span> <br>
