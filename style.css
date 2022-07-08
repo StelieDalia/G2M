@@ -780,7 +780,7 @@ h2 {
 }
 
 .section7 .mum{
-    background-color: rgb(158, 158, 158);
+    background-color: #e6e7f2;
     height: 33vh;
     width: 70vw;
     border-radius: 10px;
@@ -1480,6 +1480,20 @@ h2 {
    
     .media{
         display: flex;
+        color: whitesmoke;
+        justify-content: space-between;
+        flex-basis: 12%;
+        height: 7vh;
+        margin-top: -5rem;
+    }
+    .media span {
+        position: relative;
+        background-color: rgba(14, 13, 13, 0.247);
+        display: flex;
+        border-radius: 50%;
+        height: 45px;
+        width: 45px;
+        margin-left: 1.1%;
     }
     .copy{
         display: flex;
